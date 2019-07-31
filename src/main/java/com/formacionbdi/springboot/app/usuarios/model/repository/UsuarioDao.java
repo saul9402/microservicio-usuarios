@@ -7,7 +7,7 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 import org.springframework.stereotype.Repository;
 
-import com.formacionbdi.springboot.app.usuarios.model.entity.Usuario;
+import com.formacionbdi.springboot.app.usuarios.commons.models.entity.Usuario;
 
 @Repository
 /**
