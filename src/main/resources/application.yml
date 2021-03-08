@@ -13,7 +13,3 @@ eureka:
 #Con esto se configura la instancia para que genere su nombre de aplicación (ID) con un random
   instance:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-logging:
-  level:
-    org.hibernate.SQL: debug
-    
